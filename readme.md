@@ -1,31 +1,41 @@
-<h1> ## Reverse-Engineering </h1>
+# Unit 14 Sequelize Homework: Reverse Engineering Code
 
-  This project is a walk through of a codebase that the user can use to create a new project with NPM,  Node, Passport, Sequelize and MySQL
+Reverse engineer the starter code provided and create a tutorial for the code.
 
-  Screenshot of Project (Google Chrome): 
-  ![Screenshot](./Screen-Shot-2.png)
-  ![Screenshot](./Screen-Shot-1.png?raw=true)
+In the `Develop` folder, there is starter code for a project. Begin inspecting the code to get an understanding of each file's responsibility. Then, in a Google Doc, write a tutorial explaining *every* file and its purpose. If one file is dependant on other files, be sure to let the user know.
 
-  Repo: https://github.com/bannoura9/Sequeliz-Reverse-Engineering-Code
+At the end of the tutorial, add instructions for how you could now add changes to this project.
 
+Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
 
-## Installation
-To get a local copy up and running follow these simple steps.
+```
+AS A developer
 
-download repo from Gitlab (or similar), check and update code in VS code, test in terminal. Create databases in MySQL. Test database function in MySQL. Run and test browser functions (including server) in Google Chrome)
+I WANT a walk-through of the codebase
 
-Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
+SO THAT I can use it as a starting point for a new project
+```
 
-Installation-
-  Clone the repo
-    git clone https://github.com/bannoura9/Sequeliz-Reverse-Engineering-Code
-  Install NPM packages
-    npm install
-    npm inquirer
-    npm audit fix
-  Then open index.js file in console log and run
-    node index.js
-  You will be taken through a series of questions (user prompts) which will then lead to the generation of your new readme.md file!
+## Business Context
 
+When joining a new team, you will be expected to inspect a lot of code that you have never seen before. Rather than having a team member explain every line for you, you will dissect the code by yourself, saving any questions for a member of your team.
 
+## Acceptance Criteria
+
+```md
+GIVEN a Node.js application using Sequelize and Passport
+WHEN I follow the walkthrough
+THEN I understand the codebase
+```
+- - -
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* A link to a Google Doc or video explaining the application in `Develop/`. 
+
+_Note: Don't forget to change the sharing settings on your Google Doc._
+
+- - -
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
